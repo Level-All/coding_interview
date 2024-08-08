@@ -2,10 +2,14 @@ defmodule Blog.Posts.Post do
   use Ecto.Schema
   import Ecto.Changeset
 
+  alias Blog.Posts.Comment
+
   schema "posts" do
     field :title, :string
     field :body, :string
     field :is_published, :boolean, default: false
+
+    has_many :comments, Comment
 
     timestamps()
   end
