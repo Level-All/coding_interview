@@ -24,6 +24,9 @@ Everything has been set up for you. It is your job to retrieve posts from the da
 1. Visit `localhost:4000`
 2. Insert a couple of new posts
 3. Implement the `list_posts` function
-4. Click on a post from the index page
-5. Load the post and all of its comments
-6. Display the comments on the post page
+4. Verify posts are now being listed on the home page
+5. Click on a post from the index page
+6. Implement the `get_post!` function
+6. Load the post and all of its comments
+7. Display the comments on the post page
+8. Implement a comment form to add a comment to a post
