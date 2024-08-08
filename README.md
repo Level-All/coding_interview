@@ -14,3 +14,16 @@ For our technical interview, we'll be working in a basic blog application. This 
 * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+
+## Instructions
+
+This is a simple blog application. It consists of a single context (`Posts`), and two schemas: `Post` and `Comment`.
+
+Everything has been set up for you. It is your job to retrieve posts from the database and display them on the home page and the post detail page.
+
+1. Visit `localhost:4000`
+2. Insert a couple of new posts
+3. Implement the `list_posts` function
+4. Click on a post from the index page
+5. Load the post and all of its comments
+6. Display the comments on the post page

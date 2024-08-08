@@ -36,7 +36,8 @@ defmodule Blog.Posts do
       ** (Ecto.NoResultsError)
 
   """
-  def get_post!(id), do: Repo.get!(Post, id)
+  # TODO: Implement this
+  def get_post!(id), do: nil
 
   @doc """
   Creates a post.
