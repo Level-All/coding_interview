@@ -18,7 +18,8 @@ defmodule Blog.Posts do
 
   """
   def list_posts do
-    Repo.all(Post)
+    # TODO: Implement Post fetching
+    []
   end
 
   @doc """
