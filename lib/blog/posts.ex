@@ -7,6 +7,7 @@ defmodule Blog.Posts do
   alias Blog.Repo
 
   alias Blog.Posts.Post
+  alias Blog.Posts.Comment
 
   @doc """
   Returns the list of posts.
