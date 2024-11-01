@@ -38,7 +38,7 @@ defmodule Blog.Posts do
 
   """
   # TODO: Implement this
-  def get_post!(id), do: nil
+  def get_post!(_id), do: nil
 
   @doc """
   Creates a post.

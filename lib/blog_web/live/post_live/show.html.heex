@@ -14,6 +14,21 @@
   <:item title="Is published"><%= @post.is_published %></:item>
 </.list>
 
+<div class="mt-10">
+  <.header>
+    Add Comment to Post
+    <:subtitle>Use this form to manage post records in your database.</:subtitle>
+  </.header>
+
+  <.simple_form for={@form} id="comment-form" phx-change="validate" phx-submit="save">
+    <.input field={@form[:body]} type="text" label="Body" />
+    <.input field={@form[:post_id]} type="hidden" />
+    <:actions>
+      <.button phx-disable-with="Saving...">Save Comment</.button>
+    </:actions>
+  </.simple_form>
+</div>
+
 <.back navigate={~p"/posts"}>Back to posts</.back>
 
 <.modal :if={@live_action == :edit} id="post-modal" show on_cancel={JS.patch(~p"/posts/#{@post}")}>
