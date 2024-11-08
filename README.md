@@ -11,6 +11,5 @@ For our technical interview, we'll be working in a basic blog application. This 
 * Install Phoenix: `mix archive.install hex phx_new`
 * Run `mix setup` to install and setup dependencies
 * Create the database (ensure Postgres is running): `mix ecto.create`
-* Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+NOTE: Please do not continue further with running the application until the interview.
